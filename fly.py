@@ -31,7 +31,7 @@ tello.land()
 tello.takeoff()
 tello.move_forward(90)
 tello.rotate_clockwise(90)
-tello.move_forward(195)
+tello.move_forward(187)
 tello.land()
 
 #tello.set_speed(20)
