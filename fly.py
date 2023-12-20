@@ -15,11 +15,12 @@ tello = Tello()
 
 tello.connect()
 tello.takeoff()
-tello.rotate_counter_clockwise(180)
+tello.rotate_clockwise(180)
 tello.move_forward(121)
 tello.land()
 
 tello.takeoff()
+tello.move_back(10)
 tello.rotate_counter_clockwise(90)
 tello.move_forward(90)
 tello.rotate_clockwise(90)
